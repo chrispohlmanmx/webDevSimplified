@@ -18,6 +18,16 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
 .nav ul {
     margin: 0;
 }
@@ -103,6 +113,7 @@ body {
 .main-footer-container {
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 
 .main-footer-container ul {
@@ -171,15 +182,15 @@ body {
 .tour-date {
     color: #555;
     font-weight: bold;
-    width: 11%;
+    width: 13%;
 }
 
 .tour-city {
-    width: 24%;
+    width: 23%;
 }
 
 .tour-arena {
-    width: 42%;
+    width: 40%;
 }
 
 .tour-btn {
